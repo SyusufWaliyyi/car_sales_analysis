@@ -1,11 +1,9 @@
-```markdown
 # Car Sales Performance Analysis
 
-A hands-on Python EDA of 23,906 car sales transactions from January 2022 through December 2023. The dataset has some genuinely messy corners -- a Gender column with 13 different spellings of two words, a UTF-8 encoding corruption in the Engine field, and a phantom duplicate region caused by a trailing space. Working through each issue methodically is what this project is really about.
+> A hands-on Python EDA of 23,906 car sales transactions from January 2022 through December 2023. The dataset has some genuinely messy corners -- a Gender column with 13 different spellings of two words, a UTF-8 encoding corruption in the Engine field, and a phantom duplicate region caused by a trailing space. Working through each issue methodically is what this project is really about.
 
 ---
-
-## Table of Contents
+## 📋 Table of Contents
 
 - [What this project covers](#what-this-project-covers)
 - [Dataset at a glance](#dataset-at-a-glance)
@@ -22,7 +20,7 @@ A hands-on Python EDA of 23,906 car sales transactions from January 2022 through
 
 ## What this project covers
 
-1. Loading and auditing raw data, including the kind of issues that `.isnull()` will not catch
+1. Loading and auditing raw data, including the kind of issues that `.isna()` will not catch
 2. Nine targeted cleaning steps, each with a before/after check or assertion
 3. Feature engineering: time dimensions, income bands, price tiers
 4. Exploratory analysis across brand, region, body style, gender, colour, and time
@@ -35,7 +33,7 @@ A hands-on Python EDA of 23,906 car sales transactions from January 2022 through
 
 | Property | Value |
 |---|---|
-| File | car_sales.csv |
+| File | `car_sales.csv` |
 | Rows | 23,906 transactions |
 | Columns | 17 raw, 16 after dropping constant Qty column |
 | Period | January 2022 to December 2023 |
